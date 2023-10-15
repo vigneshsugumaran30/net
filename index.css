@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+section {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/893a42ad-6a39-43c2-bbc1-a951ec64ed6d/1d86e0ac-428c-4dfa-9810-5251dbf446f8/IN-en-20231002-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: 200px 200px 400px 57px rgba(0,0,0,0.75) inset;
+
+
+}
+.showcase-top img {
+    height: 50px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.btn {
+   padding: 10px; 
+   padding-right: 30px;
+   background-color: rgb(206, 28, 28);
+   color: white;
+   font-weight: bold;
+   border-color: rgb(206, 28, 28);
+   position: absolute;
+   right: 0;
+   margin-top: 50px;
+   margin-right: 100px;
+   border-radius: 5px;
+   cursor: pointer;
+
+}
+.showcase-top select {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-right: 30px;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.showcase-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.showcase-content h1,i {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+
+}
+.showcase-content p {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: white;
+}
+.showcase-content input {
+    height: 50px;
+    width: 450px;
+    border-radius: 5px;
+    border-color: gray;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    background-color: black;
+    color: gray;
+} 
+.showcase-content button {
+    background-color:  rgb(206, 28, 28);
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    margin-top: 50px;
+    margin-right: 430px;
+    border-radius: 5px;
+    border-color:  rgb(206, 28, 28);
+    cursor: pointer;
+}
+.showcase-content button  i {
+    font-size: 15px;
+    background-color:  rgb(206, 28, 28);
+}
+
+.section1 img{
+    float: right;
+}
+.section1 {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.section1 h1 {
+    padding-top: 200px;
+    margin-left: 150px;
+}
+.section1 h3 {
+    padding-bottom: 200px;
+    margin-left: 150px;
+}
+.section2 img{
+    float: left;
+}
+.section2 {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.section2 h1 {
+    padding-top: 200px;
+    margin-right: 175px;
+}
+.section2 h3 {
+    padding-bottom: 200px;
+    margin-right: 175px;
+}
+.section3 img{
+    float: right;
+}
+.section3 {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.section3 h1 {
+    padding-top: 200px;
+    margin-left: 150px;
+}
+.section3 h3 {
+    padding-bottom: 200px;
+    margin-left: 150px;
+}
+.section4 img{
+    float: left;
+}
+.section4 {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.section4 h1 {
+    padding-top: 200px;
+    margin-right: 175px;
+}
+.section4 h3 {
+    padding-bottom: 200px;
+    margin-right: 175px;
+}
+.question button {
+    border: solid;
+    background-color: rgb(66, 65, 65);
+    border-color: rgb(66, 65, 65);
+    color: white; 
+    height: 50px;
+    width: 1000px;
+    font-size: 25px;
+    margin-left: 250px;
+    cursor: pointer;
+}
+.question button:hover {
+    background-color: rgb(176, 175, 175);
+}
+.question i {
+    margin-left: 700px;
+}
+.ques h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 80px;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.ques {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+.question2 button {
+    border: solid;
+    background-color: rgb(66, 65, 65);
+    border-color: rgb(66, 65, 65);
+    color: white; 
+    height: 50px;
+    width: 1000px;
+    font-size: 25px;
+    margin-left: 250px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.question2 button:hover {
+    background-color: rgb(176, 175, 175);
+}
+.question2 i {
+    margin-left: 530px;
+}
+.question2 h1 {
+    text-align: center;
+}
+.question3 button {
+    border: solid;
+    background-color: rgb(66, 65, 65);
+    border-color:  rgb(66, 65, 65);
+    color: white; 
+    height: 50px;
+    width: 1000px;
+    font-size: 25px;
+    margin-left: 250px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.question3 button:hover {
+    background-color: rgb(176, 175, 175);
+}
+.question3 i {
+    margin-left: 650px;
+}
+.question3 h1 {
+    text-align: center;
+}
+.question4 button {
+    border: solid;
+    background-color: rgb(66, 65, 65);
+    border-color:  rgb(66, 65, 65);
+    color: white; 
+    height: 50px;
+    width: 1000px;
+    font-size: 25px;
+    margin-left: 250px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.question4 button:hover {
+    background-color: rgb(176, 175, 175);
+}
+.question4 i {
+    margin-left: 675px;
+}
+.question4 h1 {
+    text-align: center;
+}
+.question5 button {
+    border: solid;
+    background-color: rgb(66, 65, 65);
+    border-color:  rgb(66, 65, 65);
+    color: white; 
+    height: 50px;
+    width: 1000px;
+    font-size: 25px;
+    margin-left: 250px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.question5 button:hover {
+    background-color: rgb(176, 175, 175);
+}
+.question5 i {
+    margin-left: 550px;
+}
+.question5 h1 {
+    text-align: center;
+}
+.question6 button {
+    border: solid;
+    background-color: rgb(66, 65, 65);
+    border-color:  rgb(66, 65, 65);
+    color: white; 
+    height: 50px;
+    width: 1000px;
+    font-size: 25px;
+    margin-left: 250px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.question6 button:hover {
+    background-color: rgb(176, 175, 175);
+}
+.question6 i {
+    margin-left: 600px;
+}
+.question6 h1 {
+    text-align: center;
+}
+.ques p {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.ques-btn input{
+    height: 50px;
+    width: 400px;
+    border-radius: 5px;
+    border-color: gray;
+    margin-left: 470px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: transparent;
+    color: gray;
+}
+.ques-btn button {
+    background-color:  rgb(206, 28, 28);
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 430px;
+    border-radius: 5px;
+    border-color:  rgb(206, 28, 28);
+}
+.ques-btn button i {
+    font-size: 15px;
+    background-color:  rgb(206, 28, 28);
+}
+.footer {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+.footer p{
+    margin-left: 110px;
+    padding: 30px;
+}
+.footer-cols {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+.sub1 ul,li {
+    list-style-type: none;
+    line-height: 2;
+}
+.sub1 ul,li,a:link {
+    color: white;
+}
+.sub2 ul,li {
+    list-style-type: none;
+    line-height: 2;
+}
+.sub3 ul,li {
+    list-style-type: none;
+    line-height: 2;
+}
+.sub4 ul,li {
+    list-style-type: none;
+    line-height: 2;
+}
+.footer select {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-right: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 130px;
+}
